@@ -44,7 +44,7 @@ const CountChart = () => {
             barSize={32}
             data={data}
           >
-            <RadialBar background datakey="count" />
+            <RadialBar background dataKey="count" />
           </RadialBarChart>
         </ResponsiveContainer>
         <Image
