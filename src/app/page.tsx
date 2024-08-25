@@ -44,6 +44,24 @@ const Homepage = () => {
           </Link>
         </div>
       </div>
+
+      <br></br>
+      <div className="mt-4 text-sm">
+        <div className="flex flex-col gap-2">
+          <span className=" sm:block md:block lg:block text-gray-400 font-light my-4 ml-2">
+            List Pages Pages
+          </span>
+          <Link
+            href={"/list/announcements"}
+            className="flex items-center justify-center lg:justify-start gap-4 text-gray-500 py-2 md:px-2 rounded-md hover:bg-[#EDF9FD]"
+          >
+            <Image src="/profile.png" alt="" width={28} height={20} />
+            <span className=" sm:block md:block lg:block">
+              Announcements Page
+            </span>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
