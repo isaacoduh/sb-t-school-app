@@ -60,6 +60,22 @@ const Homepage = () => {
               Announcements Page
             </span>
           </Link>
+          <Link
+            href={"/list/teachers"}
+            className="flex items-center justify-center lg:justify-start gap-4 text-gray-500 py-2 md:px-2 rounded-md hover:bg-[#EDF9FD]"
+          >
+            <Image src="/profile.png" alt="" width={28} height={20} />
+            <span className=" sm:block md:block lg:block">Teachers Page</span>
+          </Link>
+          <Link
+            href={"/list/teachers/1"}
+            className="flex items-center justify-center lg:justify-start gap-4 text-gray-500 py-2 md:px-2 rounded-md hover:bg-[#EDF9FD]"
+          >
+            <Image src="/profile.png" alt="" width={28} height={20} />
+            <span className=" sm:block md:block lg:block">
+              Teacher Details Page
+            </span>
+          </Link>
         </div>
       </div>
     </div>
