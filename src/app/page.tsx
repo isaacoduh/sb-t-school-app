@@ -76,6 +76,22 @@ const Homepage = () => {
               Teacher Details Page
             </span>
           </Link>
+          <Link
+            href={"/list/students"}
+            className="flex items-center justify-center lg:justify-start gap-4 text-gray-500 py-2 md:px-2 rounded-md hover:bg-[#EDF9FD]"
+          >
+            <Image src="/profile.png" alt="" width={28} height={20} />
+            <span className=" sm:block md:block lg:block">Students Page</span>
+          </Link>
+          <Link
+            href={"/list/student/1"}
+            className="flex items-center justify-center lg:justify-start gap-4 text-gray-500 py-2 md:px-2 rounded-md hover:bg-[#EDF9FD]"
+          >
+            <Image src="/profile.png" alt="" width={28} height={20} />
+            <span className=" sm:block md:block lg:block">
+              Student Details Page
+            </span>
+          </Link>
         </div>
       </div>
     </div>
